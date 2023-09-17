@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("Norse-Bold.otf") format("opentype");
+}
+
 :root {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 body {
@@ -7,17 +13,40 @@ body {
   margin: 0;
 }
 
+a {
+  color: white;
+}
+
 .container-left {
   width: 40vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
+  background-image: url(./sidebar-background.jpg);
+  background-size: cover;
+  color: white;
 }
 
 .logo-bar {
   margin-top: 25vh;
+  padding: 12px;
+  background-color: rgb(0 0 0 / .4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Norse-Bold;
+  font-size: 100px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.image-credit {
   text-align: center;
+  margin: 12px;
 }
 
 .container-right {
