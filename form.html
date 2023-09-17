@@ -20,9 +20,44 @@
     <form>
       <div class="fields">
         <h2>Let's do this!</h2>
+        <div class="fields-container">
+          <div class="fields-left">
+            <ul>
+              <li>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" class="text">
+              </li>
+              <li>
+                <label for="email">EMAIL</label>
+                <input type="email" class="text">
+              </li>
+              <li>
+                <label for="password">PASSWORD</label>
+                <input type="password" class="text">
+              </li>
+            </ul>
+          </div>
+          <div class="fields-right">
+            <ul>
+              <li>
+                <label for="last-name">LAST NAME</label>
+                <input type="text" class="text">
+              </li>
+              <li>
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" class="text">
+              </li>
+              <li>
+                <label for="">CONFIRM PASSWORD</label>
+                <input type="password" class="text">
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <button type="submit">Create Account</button>
+      <button type="submit" class="submit">Create Account</button>
     </form>
+    <div class="login-prompt">Already have an account? <a class="login" href="">Log in</a></div>
   </div>
 </body>
 </html>
